@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="501.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="1.0" arcWidth="10.0" height="126.0" stroke="BLACK" strokeType="INSIDE" width="800.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.38257572912808624">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Text layoutX="200.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Genesis Pool Tracker" wrappingWidth="445.0849609375">
+         <font>
+            <Font name="Yu Gothic UI Bold" size="42.0" />
+         </font>
+      </Text>
+      <Button layoutX="287.0" layoutY="264.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="244.0" text="Log Match">
+         <font>
+            <Font name="Tw Cen MT" size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="287.0" layoutY="366.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="244.0" text="Leaderboard">
+         <font>
+            <Font name="Tw Cen MT" size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="287.0" layoutY="174.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="244.0" text="Play">
+         <font>
+            <Font name="Tw Cen MT" size="28.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="62.0" fitWidth="64.0" layoutX="722.0" layoutY="428.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Pictures/redpanda-logo_transparent.png" />
+         </image>
+      </ImageView>
+   </children>
+   <effect>
+      <Blend />
+   </effect>
+</AnchorPane>

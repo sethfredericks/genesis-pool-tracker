@@ -10,6 +10,8 @@ module org.genesis.genesispooltracker {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
+    requires org.xerial.sqlitejdbc;
 
     opens org.genesis.genesispooltracker to javafx.fxml;
     exports org.genesis.genesispooltracker;

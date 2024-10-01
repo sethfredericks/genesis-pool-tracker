@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500" prefWidth="800" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.genesis.genesispooltracker.SceneController">
+   <children>
+      <Text layoutX="313.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="this doesn't work yet big man" wrappingWidth="173.0973663330078" />
+      <Button layoutX="712.0" layoutY="444.0" mnemonicParsing="false" onAction="#switchToHelloScene" text="Back">
+         <font>
+            <Font name="Tw Cen MT" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

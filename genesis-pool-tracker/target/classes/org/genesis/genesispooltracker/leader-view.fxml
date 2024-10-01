@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.genesis.genesispooltracker.SceneController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="126.0" stroke="BLACK" strokeType="INSIDE" width="800.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.4015151524182522">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.11999999731779099" blue="0.11999999731779099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Text layoutX="279.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Leaderboard">
+         <font>
+            <Font name="Yu Gothic UI Bold" size="42.0" />
+         </font>
+      </Text>
+      <TableView layoutX="125.0" layoutY="150.0" prefHeight="307.0" prefWidth="550.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button layoutX="734.0" layoutY="457.0" mnemonicParsing="false" onAction="#switchToHelloScene" text="Back" />
+   </children>
+</AnchorPane>
